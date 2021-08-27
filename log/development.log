@@ -1,0 +1,317 @@
+  [1m[35m (268.9ms)[0m  [1m[35mCREATE DATABASE "sample_app_two_development" ENCODING = 'unicode'[0m
+  [1m[35m (36.8ms)[0m  [1m[35mCREATE DATABASE "sample_app_two_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2021-08-26 21:39:53 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 517)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.5
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+  Rendered layout layouts/application.html.erb (Duration: 1318.9ms | Allocations: 13131)
+Completed 500 Internal Server Error in 1341ms (ActiveRecord: 0.0ms | Allocations: 17625)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/andrei/Baymax/workshop/test/task3/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for ::1 at 2021-08-26 21:43:09 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 412)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/andrei/Baymax/workshop/test/task3/public/packs
+[Webpacker] Hash: 7081b3e25d32850b2c6d
+Version: webpack 4.46.0
+Time: 2644ms
+Built at: 08/26/2021 9:43:13 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-5353a46b1aa3f90a34b4.js    434 KiB  application  [emitted] [immutable]  application
+js/application-5353a46b1aa3f90a34b4.js.map    505 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-5353a46b1aa3f90a34b4.js js/application-5353a46b1aa3f90a34b4.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 512 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 4 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 4070.3ms | Allocations: 6947)
+Completed 200 OK in 4078ms (Views: 4072.2ms | ActiveRecord: 0.0ms | Allocations: 10472)
+
+
+Started GET "/" for ::1 at 2021-08-26 21:45:05 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 44)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2962)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 3545)
+
+
+Started GET "/" for ::1 at 2021-08-26 21:46:06 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2819)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 3267)
+
+
+Started GET "/" for ::1 at 2021-08-26 21:46:07 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2818)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3261)
+
+
+Started GET "/" for ::1 at 2021-08-26 21:46:08 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2818)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 3263)
+
+
+Started GET "/" for ::1 at 2021-08-26 21:46:12 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2819)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 3267)
+
+
+Started GET "/" for ::1 at 2021-08-27 06:31:56 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 412)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 62.4ms | Allocations: 5662)
+Completed 200 OK in 158ms (Views: 135.2ms | ActiveRecord: 0.0ms | Allocations: 9187)
+
+
+Started GET "/" for ::1 at 2021-08-27 06:34:31 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 412)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 5619)
+Completed 200 OK in 17ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 9266)
+
+
+Started GET "/" for ::1 at 2021-08-27 06:34:33 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 44)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2962)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 3516)
+
+
+Started GET "/" for ::1 at 2021-08-27 06:34:33 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2819)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 3267)
+
+
+Started GET "/" for ::1 at 2021-08-27 06:34:34 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2818)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 3261)
+
+
+Started GET "/" for ::1 at 2021-08-27 06:34:54 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2826)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 3271)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-27 06:41:19 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 412)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 5663)
+Completed 200 OK in 22ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 9188)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-27 06:47:06 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 412)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.8ms | Allocations: 5662)
+Completed 200 OK in 35ms (Views: 29.1ms | ActiveRecord: 0.0ms | Allocations: 9187)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-27 06:48:29 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 412)
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2021-08-27 06:48:38 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/andrei/Baymax/workshop/test/task3/public/packs
+[Webpacker] Hash: 2e19afa135aec10a837e
+Version: webpack 4.46.0
+Time: 5671ms
+Built at: 08/27/2021 6:48:39 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-afc06022fbd4249dbc59.js    843 KiB  application  [emitted] [immutable]  application
+js/application-afc06022fbd4249dbc59.js.map    898 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-afc06022fbd4249dbc59.js js/application-afc06022fbd4249dbc59.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 512 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 9503.5ms | Allocations: 12654)
+Completed 200 OK in 9512ms (Views: 9506.9ms | ActiveRecord: 0.0ms | Allocations: 16290)
+
+
+[Webpacker] Compiled all packs in /home/andrei/Baymax/workshop/test/task3/public/packs
+[Webpacker] Hash: 2e19afa135aec10a837e
+Version: webpack 4.46.0
+Time: 1535ms
+Built at: 08/27/2021 6:48:42 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-afc06022fbd4249dbc59.js    843 KiB  application  [emitted] [immutable]  application
+js/application-afc06022fbd4249dbc59.js.map    898 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-afc06022fbd4249dbc59.js js/application-afc06022fbd4249dbc59.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 512 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 3766.7ms | Allocations: 12335)
+Completed 200 OK in 3768ms (Views: 3767.3ms | ActiveRecord: 0.0ms | Allocations: 12831)
+
+
+Started GET "/" for ::1 at 2021-08-27 07:36:53 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 412)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 5662)
+Completed 200 OK in 18ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 9187)
+
+
+Started GET "/" for ::1 at 2021-08-27 07:36:55 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2949)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 3532)
+
+
+Started GET "/" for ::1 at 2021-08-27 09:18:13 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 418)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.8ms | Allocations: 10985)
+Completed 200 OK in 51ms (Views: 43.4ms | ActiveRecord: 0.0ms | Allocations: 14510)
+
+
+Started GET "/" for ::1 at 2021-08-27 09:23:17 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 418)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 5628)
+Completed 200 OK in 22ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 9275)
+
+
+Started GET "/" for ::1 at 2021-08-27 09:23:18 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2873)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 3424)
+
+
+Started GET "/" for ::1 at 2021-08-27 09:42:23 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 203)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 3393)
+Completed 200 OK in 8ms (Views: 7.2ms | Allocations: 4818)
+
+
+Started GET "/" for ::1 at 2021-08-27 09:42:49 +0300
+Processing by HomeController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/new.html.erb within layouts/application
+  Rendered home/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 203)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 3392)
+Completed 200 OK in 11ms (Views: 9.8ms | Allocations: 4765)
+
+
